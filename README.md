@@ -1,5 +1,7 @@
 # check-tester
 
+available on docker hub as `arussellsaw/check-tester`
+
 a docker container used for consul health check based integration tests
 
 building: `GOOS=linux go build; docker build .`
